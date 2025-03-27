@@ -1,0 +1,71 @@
+**********************************************************************************************************************************************
+Intro to machine learning book
+
+The applications of machine learning  are endless and , with the amount of data 
+available today, mostly limited by our imagination
+
+Keep in mind mathematics probability theory in particular is the 
+foundation upon which machine learning is built
+
+using handcoded rules to make decisions has two major disad‐
+vantages:
+• The logic required to make a decision is specific to a single domain and task.
+Changing the task even slightly might require a rewrite of the whole system.
+• Designing rules requires a deep understanding of how a decision should be made
+by a human expert.
+
+The most successful kinds of machine learning algorithms are those that automate
+decision-making processes by generalizing from known examples
+
+supervised learning, the user provides the algorithm with pairs of
+inputs and desired outputs, and the algorithm finds a way to produce the desired out‐
+put given an input.
+
+In unsupervised learning, only the input data is known, and no known output
+data is given to the 
+
+BUilding a good rep of your data  - Feature Engineering / feature Extaction
+
+
+KNowing your Task and Knowing your data:
+The most important part in the machine learning process is under‐
+standing the data you are working with and how it relates to the task you want to
+solve.
+
+While you are building a machine learning solution,
+you should answer, or at least keep in mind, the following questions:
+
+What question(s) am I trying to answer? Do I think the data collected can answer
+that question?
+• What is the best way to phrase my question(s) as a machine learning problem?
+• Have I collected enough data to represent the problem I want to solve?
+• What features of the data did I extract, and will these enable the right
+predictions?
+• How will I measure success in my application?
+• How will the machine learning solution interact with other parts of my research
+or business product?
+
+In scikit-learn, data is usually denoted with a capital X, while labels are denoted by
+a lowercase y. This is inspired by the standard formulation f(x)=y in mathematics,
+where x is the input to a function and y is the output. Following more conventions
+from mathematics, we use a capital X because the data is a two-dimensional array (a
+matrix) and a lowercase y because the target is a one-dimensional array (a vector).
+
+
+Before building a machine learning model it is often a good idea to inspect the data,
+to see if the task is easily solvable without machine learning, or if the desired infor‐
+mation might not be contained in the data.
+
+**********************************************************************************************************************************
+
+
+Let’s summarize what we learned in this chapter. We started with a brief introduction
+to machine learning and its applications, then discussed the distinction between
+supervised and unsupervised learning and gave an overview of the tools we’ll be
+using in this book. Then, we formulated the task of predicting which species of iris a
+particular flower belongs to by using physical measurements of the flower. We used a
+dataset of measurements that was annotated by an expert with the correct species to
+build our model, making this a supervised learning task. There were three possible
+species, setosa, versicolor, or virginica, which made the task a three-class classification
+problem. The possible species are called classes in the classification problem, and the
+species of a single iris is called its label.
